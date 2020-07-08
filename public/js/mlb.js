@@ -1,25 +1,24 @@
 $(document).ready(() => {
-    //============Redirect to League Pages=================================================================
-    $("#inputGroupSelectMLB").change(() => {
-      switch ($("#inputGroupSelectMLB").val()) {
+  //============Redirect to League Pages=================================================================
+  $("#inputGroupSelectMLB").change(() => {
+    switch ($("#inputGroupSelectMLB").val()) {
       case "1":
-          console.log("Mariners");
-          break;
+        console.log("Mariners");
+      break;
       case "2":
-          console.log("Rangers");
-          break;
+        console.log("Rangers");
+      break;
       case "3":
-          console.log("Nationals");
-          break;
+      console.log("Nationals");
+        break;
       case "4":
-          console.log("Dodgers");
-          break
+      console.log("Dodgers");
+        break;
       case "5":
-          console.log("Royals");
-          break;
+      console.log("Royals");
+      break;
       case "6":
-          console.log("Red Sox");
-      }
-    });
+      console.log("Red Sox");
+    }
   });
-
+});
